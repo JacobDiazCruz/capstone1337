@@ -1,3 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
 
 body {
 	background-image: url("../images/laptop-image.jpg");
@@ -63,11 +70,22 @@ p {
 
 }
 
+#envelope {
+	margin-left: 220px;
+}
+
+.social-icons {
+	margin-left: -300px;
+}
+
 .skills {
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
+.logos {
+  margin-right: 20px;
+}
 
 
 img {
@@ -77,4 +95,8 @@ img {
 h3 {
 	font-family: 'Archivo Black', sans-serif;
 	color: white;
+}
+
+i {
+  font-size: 30px;
 }
